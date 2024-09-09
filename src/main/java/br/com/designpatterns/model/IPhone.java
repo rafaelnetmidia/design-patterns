@@ -16,11 +16,4 @@ public abstract class IPhone {
         System.out.println("Packing the device");
     }
 
-    public void process() {
-        getHardware();
-        assemble();
-        certificates();
-        pack();
-    }
-
 }
